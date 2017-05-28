@@ -7,5 +7,16 @@ Algorithm in Haskell][2].
 
 Interesting stuff! Stay tuned for more tales of interest!
 
+## Build
+
+Life is easier with [stack][3]. Do this:
+
+```
+$ stack init # first time only
+$ stack build
+$ stack exec recombinase
+```
+
 [1]: http://www.scottaaronson.com/blog/?p=2862
 [2]: https://www.twanvl.nl/blog/haskell/Knuth-Morris-Pratt-in-Haskell
+[3]: https://docs.haskellstack.org/en/stable/README/
